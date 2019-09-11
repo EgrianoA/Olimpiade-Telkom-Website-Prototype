@@ -1,0 +1,102 @@
+/*------------------------------------------------------------------
+  	[Basket]
+------------------------------------------------------------------*/
+.Basket {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: url(../Basket/397682.jpg) no-repeat;
+  background-size: auto;
+  background-position: center center;
+  padding: 200px 0px 200px;
+}
+
+.Basket:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0.4);
+  content: " ";
+}
+
+.Basket .Basket-title {
+  font-size: 70px;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .Basket .Basket-title {
+    font-size: 50px;
+  }
+}
+
+.Basket .Basket-text {
+  font-size: 50px;
+  color: #fff;
+}
+
+.logo-sizeBasket{
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.logo-eventBasket{
+  display: block;
+    margin: 0 auto;
+}
+
+.Schedule {
+  position: relative;
+  text-align: center;
+  background: url(../Basket/background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 200px 0px 200px;
+}
+
+.Schedule .Schedule-text {
+  font-size: 25px;
+  font-family: Hind, sans-serif;
+  color: #fff;
+}
+
+.jadwal{
+    padding : 20px;
+    height: auto;
+    width: auto;
+    max-width: 700px;
+}
+
+.Standings {
+  position: relative;
+  text-align: center;
+  background: url(../Basket/background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 200px 0px 200px;
+}
+
+.logo-sizeStandings{
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.logo-eventStandings{
+  display: block;
+    margin: 0 auto;
+}
+
+.bagan{
+    padding : 20px;
+    height: auto;
+    width: auto;
+    max-width: 800px;
+    max-height: 800px;
+}

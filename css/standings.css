@@ -1,0 +1,84 @@
+/*------------------------------------------------------------------
+  	[Standings]
+------------------------------------------------------------------*/
+.Standings {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: url(../IMG_20053.jpg) no-repeat;
+  background-size: auto;
+  background-position: center center;
+  padding: 200px 0px 200px;
+}
+
+.Standings:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0.4);
+  content: " ";
+}
+
+.Standings .Standings-title {
+  font-size: 70px;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .Standings .Standings-title {
+    font-size: 50px;
+  }
+}
+
+.Standings .Standings-text {
+  font-size: 50px;
+  color: #fff;
+}
+
+.logo-sizeStandings{
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.logo-eventStandings{
+  display: block;
+    margin: 0 auto;
+}
+
+.Overall {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: #50b2e3;
+  background-size: auto;
+  background-position: center center;
+  padding: 200px 0px 200px;
+}
+.overallmedal{
+  display: block;
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+    max-width: 800px;
+}
+
+.PerEvent {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: #50b2e3;
+  background-size: auto;
+  background-position: center center;
+  padding: 200px 0px 200px;
+}
+.PerEventSize{
+  height: auto;
+  width: auto;
+  max-width: 400px;
+  max-height: 400px;
+}
